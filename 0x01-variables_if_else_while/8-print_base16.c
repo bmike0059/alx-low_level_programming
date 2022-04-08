@@ -12,7 +12,7 @@ char y;
 
 for (x = 0 ; x < 10 ; x++)
 {
-putchar(x+48);
+putchar(x + 48);
 }
 for (y = 'a' ; y < 'g' ; y++)
 {
