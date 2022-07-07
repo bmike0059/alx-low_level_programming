@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *add_dnodeint - adds a node to a linked list head
+ * add_dnodeint - adds a node to a linked list head
  * @head: linked list head
  * @n: int element of the linked list
  * Return: number of elements
@@ -22,7 +22,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	new_node->n = n;
 	new_node->next = *head;
-  new_node->prev = NULL;
+  	new_node->prev = NULL;
 	*head = new_node;
 
 	return (new_node);
